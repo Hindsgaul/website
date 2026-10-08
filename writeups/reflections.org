@@ -1,0 +1,60 @@
+#+title: Example Machine
+#+date: 2026-10-01
+#+author: Mathias Hindsgaul
+#+description: A Linux machine focused on enumeration and privilege escalation.
+#+tags: HTB Linux Privilege Escalation
+
+#+options: toc:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="style.css">
+
+#+begin_export html
+<div class="org-meta org-center" style="margin-top: 80px; margin-bottom:80px;">
+  Mathias Hindsgaul · 2026-10-01
+</div>
+<nav class="site-nav" style="display: flex; justify-content: center; padding: 20px 20px;">
+  <a href="../" style="margin: 0px 25px 0px 25px;">MH.</a>
+  <a href="../#about" style="margin: 0px 25px 0px 25px;">About</a>
+  <a href="../#experience" style="margin: 0px 25px 0px 25px;">Experience</a>
+  <a href="./" style="margin: 0px 25px 0px 25px;">Writeups</a>
+  <a href="../#contact" style="margin: 0px 25px 0px 25px;">Contact</a>
+</nav>
+#+end_export
+
+* Identify some risks with AI
+** Bias
+Which can result in biased/subjective information based on the data used.
+AI can also be generative and if it does not find a relevant answer, it might still give it to please the customer.
+** Careful with sensitive information
+Uneducated people (in the AI aspect) can reveal sensitive information to the popular LLMs.
+** Badly configured AI bots
+"Hackers" can prompt AI to reveal critical/sensitive data its not supposed to reveal.
+** Hacking tool
+Can make the job of hacking more easy and accesible to get information.
+** Replacement of jobs
+Weak AI have allready replaced some jobs which can result in unemployment for people with job with "simple" tasks.
+** AI in the future
+TERMINATOR
+** Environmental issues
+Takes a lot of resources to respond
+** Extinction of gamers!
+You have millionaire to buy computer parts
+
+* What is sensitive data / information?
+** Personal information
+Personal number, name, bank information, credit card, phone number, password, email, "personal security answers", physical address, ip and more.
+** Confidential government/military information
+Information that could have another country undermine one another. Or leaking an upper hand in form of information to the other countries.
+** Confidential business information
+Sensitive information you dont want to your competitors to get, maybe even bury the company. They store personal data as well regarding employees and customers. Data breaches can result in legal fees and reputational downfall.
+
+* What is the weakest link in security?
+Security is not stronger than its weakest link.
+A lot of hacks happens through users like phising and vishing, bad usernames/passwords and no MFA, public wifi.
+There will also be a weakest link in any system, so you have to make a safety net and utilize multiple layers for resistance against the hackers.
+No segmentation on servers can also result in severe damage.
+
+#+begin_export html
+<footer class="site-footer">
+  © 2026 Mathias Hindsgaul · Cybersecurity
+</footer>
+#+end_export
